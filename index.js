@@ -86,7 +86,7 @@ let train={
     Price:200,
     covidCertficate:true
 }
-let trainti=(trainobject)=>{
+function trainti(trainobject){
 
     try {
         if(trainobject.Age!==18 && trainobject.Age<18)
