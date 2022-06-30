@@ -15,15 +15,22 @@ let access=(num1)=>{
     // //     console.log(`you have enter ${num1}`)
     // // }
 
-    if(num1===5){
-        console.log('hello world')
-    return
-    }
-    if(num1==34){
-        console.log(`you are eligable ${num1}`)
-    return
-    }
-    console.log('hi')
+
+// if zayda efficent ha agar return use karin 
+// flow torna ka lia wo agae nai jane dei ga 
+
+//     if(num1===5){
+//         console.log('hello world')
+//     return
+//     }
+//     if(num1==34){
+//         console.log(`you are eligable ${num1}`)
+//     return
+//     }
+//     console.log('hi')
+
+return num1%2;
 }
-access(34);
+// access(num1);
+console.log(access(3));
 
