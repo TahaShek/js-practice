@@ -43,9 +43,40 @@
 //     try {
 //     if(num1%2===0)
 //     {console.log('even number');}
-//     return
+//     else{
+//         console.log(`odd number ${num1}`);
+//     }
+    
 //     } catch (error) {
 //         console.log(error.message);
 //     }
+
 // }
-// evennummber();
+// evennummber(21);
+
+
+// let student={
+//     Name:'taha',
+//     Age:22,
+//     Game:'Fifa'
+// }
+
+
+// let processStudent=(studentobject)=>{
+// try {
+//     if(studentobject.Age===18 && studentobject>=18){
+//         console.log('Log in');
+//         return
+//     }
+    
+// } catch (error) {
+//     console.log(error.message);
+    
+// }
+// console.log(studentobject);
+// }
+// processStudent(student);
+
+
+
+
