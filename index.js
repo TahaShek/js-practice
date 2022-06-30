@@ -78,5 +78,35 @@
 // processStudent(student);
 
 
+// train ticket 
 
+
+let train={
+    Age:20,
+    Price:200,
+    covidCertficate:true
+}
+let trainti=(trainobject)=>{
+
+    try {
+        if(trainobject.Age!==18 && trainobject.Age<18)
+      {  console.log('ghr jao ap ');
+      return}
+    
+      if(trainobject.Price===200 || trainobject.Price>200){
+        console.log('');
+      }
+if(trainobject.covidCertficate===false){
+    console.log('bhai ghar bheet');
+    return
+}
+    }
+     catch (error) {
+        console.log(error.message);        
+    }
+
+console.log('Here is your ticket Travel Safe');
+}
+
+trainti(train);
 
