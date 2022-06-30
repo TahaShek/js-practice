@@ -1,4 +1,4 @@
-let access=(num1)=>{
+// let access=(num1)=>{
     // if(num1===10){
     //     console.log('we here')
     // }
@@ -23,14 +23,29 @@ let access=(num1)=>{
 //         console.log('hello world')
 //     return
 //     }
+//     console.log('allah hafiz')
 //     if(num1==34){
 //         console.log(`you are eligable ${num1}`)
-//     return
+    
 //     }
-//     console.log('hi')
+   
+// }
+//     access();
 
-return num1%2;
-}
-// access(num1);
-console.log(access(3));
+// return num1*2;
+// }
+// // access(num1);
+// console.log(access(3));
 
+
+
+// let evennummber=(num1)=>{
+//     try {
+//     if(num1%2===0)
+//     {console.log('even number');}
+//     return
+//     } catch (error) {
+//         console.log(error.message);
+//     }
+// }
+// evennummber();
