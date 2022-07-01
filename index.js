@@ -81,32 +81,44 @@
 // train ticket 
 
 
-let train={
-    Age:20,
-    Price:200,
-    covidCertficate:true
-}
-function trainti(trainobject){
+// let train={
+//     Age:20,
+//     Price:200,
+//     covidCertficate:true
+// }
+// function trainti(trainobject){
 
-    try {
-        if(trainobject.Age!==18 && trainobject.Age<18)
-      {  console.log('ghr jao ap ');
-      return}
+//     try {
+//         if(trainobject.Age!==18 && trainobject.Age<18)
+//       {  console.log('ghr jao ap ');
+//       return}
     
-      if(trainobject.Price===200 || trainobject.Price>200){
-        console.log('');
-      }
-if(trainobject.covidCertficate===false){
-    console.log('bhai ghar bheet');
-    return
-}
-    }
-     catch (error) {
-        console.log(error.message);        
-    }
+//       if(trainobject.Price===200 || trainobject.Price>200){
+//         console.log('');
+//       }
+// if(trainobject.covidCertficate===false){
+//     console.log('bhai ghar bheet');
+//     return
+// }
+//     }
+//      catch (error) {
+//         console.log(error.message);        
+//     }
 
-console.log('Here is your ticket Travel Safe');
-}
+// console.log('Here is your ticket Travel Safe');
+// }
 
-trainti(train);
+// trainti(train);
+
+
+// let table =(kiskatable,kahantak)=>{
+//     for(i=20;
+//         i>=kahantak;
+//         i--)
+//         console.log(`${kiskatable}*${i}=${kiskatable*i}`)
+// }
+// table(5,2);
+
+
+
 
