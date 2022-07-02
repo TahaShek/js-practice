@@ -122,3 +122,15 @@
 
 
 
+
+
+
+
+// console.log('hello boiz');
+// let num1 = String(24);
+// console.log(num1, (typeof num1));
+
+console.log('what are arrays');
+let marks=[24,25,26,27];
+let fruits=['orange','apple'];
+let mix=[]
