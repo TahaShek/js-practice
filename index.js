@@ -130,7 +130,22 @@
 // let num1 = String(24);
 // console.log(num1, (typeof num1));
 
-console.log('what are arrays');
-let marks=[24,25,26,27];
-let fruits=['orange','apple'];
-let mix=[]
+// console.log('what are arrays');
+// let marks=[24,25,26,27];
+// let fruits=['orange','apple'];
+// let mix=['taha',23,'malik',56,[3,5]];
+// const mixed= new Array(28,64,69,'orange');
+// mix[0]=21;
+// console.log(arrz);
+// // console.log(mix);
+// // console.log(marks);
+// // console.log(fruits);
+
+
+let a = window;
+// alert   ('kaisa ha gandu');
+
+// a = prompt('nikla yaha se');
+a=window.innerHeight;
+console.log(a);
+console.log('tu kaisa ha apa ');
