@@ -142,10 +142,21 @@
 // // console.log(fruits);
 
 
-let a = window;
-// alert   ('kaisa ha gandu');
+// let a = window;
+// // alert   ('kaisa ha gandu');
 
-// a = prompt('nikla yaha se');
-a=window.innerHeight;
-console.log(a);
-console.log('tu kaisa ha apa ');
+// // a = prompt('nikla yaha se');
+// a=window.innerHeight;
+// console.log(a);
+// console.log('tu kaisa ha apa ');
+
+
+let Changeheadingcolor = () =>{
+    try {
+        
+        
+    } catch (error) {
+        alert(error.message);
+        
+    }
+}
