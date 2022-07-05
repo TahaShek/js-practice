@@ -153,11 +153,12 @@
 
 let Changeheadingcolor = () =>{
     try {
-     let myHeading= document.querySelector('h1');
-       myHeading.style.color='green'
+     let myHeading = document.querySelectorAll('h1');
        myHeading.forEach(element => {
-            
+        element.style.color='green';
+        element.style.border='3px dotted grey';
         });
+     
     } catch (error) {
         alert(error.message);
         
