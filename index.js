@@ -151,16 +151,39 @@
 // console.log('tu kaisa ha apa ');
 
 
-let Changeheadingcolor = () =>{
-    try {
-     let myHeading = document.querySelectorAll('h1');
-       myHeading.forEach(element => {
-        element.style.color='green';
-        element.style.border='3px dotted grey';
-        });
-     
-    } catch (error) {
-        alert(error.message);
+// let Changeheadingcolor = () =>{
+//     try {
+//     //  let myHeading = document.querySelectorAll('h1');
+//     //    myHeading.forEach(element => {
+//     //     element.style.color='green';
+//     //     element.style.border='3px dotted grey';
+//     //     });
+//     let myHeading=document.querySelector('.content')
+//      myHeading.innerHTML='sfsdfsdgdsgdsgdgsdgsdgsdg';
+
+
+
+//     } catch (error) {
+//         alert(error.message);
         
-    }
-}
+//     }
+
+
+// let login =()=>{
+
+// try {
+    
+// let form =document.querySelector('.email').value ;
+// console.log(form);
+// document.querySelector('#text').innerHTML=`${form}`;
+// } catch (error) {
+    
+// alert(error.message);
+// }
+    
+// }
+
+
+
+// all about arrays 
+
