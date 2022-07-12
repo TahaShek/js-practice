@@ -187,3 +187,24 @@
 
 // all about arrays 
 
+// let adddnumber=()=>{
+
+//     num1 + num2;
+//     // let result;
+//     // result=num1+num2;
+//     // return result;
+// }
+
+
+
+// function number(num1){
+//     num1/num1;
+//     // console.log(num1*num1);
+// let result;
+// result = num1/num1;
+// return result;
+// }
+// number(5);
+// console.log(number(5));
+
+
