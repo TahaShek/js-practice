@@ -208,3 +208,63 @@
 // console.log(number(5));
 
 
+// let display=()=>{
+// //    let Heading =  document.querySelectorAll('h1');
+// //      Heading.forEach(element => {
+   
+// //         element.style.color= 'pink'
+// //         .style.background='grey'
+// //         .style.width='200px'
+// // });
+
+// }
+
+let signin=()=>{
+// let Message="";
+try {
+let myinputfield=document.querySelector('#inputEmail4');
+let myinputvalue =document.querySelector('#inputEmail4').value;
+if(myinputfield === 'yes' ){
+    myinputfield.style.border='1px solid red'
+}
+else{
+    myinputfield.style.border='1px solid green'
+}
+} catch (error) {
+    alert(error.message);
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
