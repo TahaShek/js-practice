@@ -219,29 +219,40 @@
 
 // }
 
-let signin=()=>{
-// let Message="";
-try {
-let myinputfield=document.querySelector('#inputEmail4');
-let myinputvalue =document.querySelector('#inputEmail4').value;
-if(myinputfield === 'yes' ){
-    myinputfield.style.border='1px solid red'
-}
-else{
-    myinputfield.style.border='1px solid green'
-}
-} catch (error) {
-    alert(error.message);
-}
+// let signin=()=>{
+// // let Message="";
+// try {
+//     let MyInputField = document.querySelector('#exampleInputEmail1');
+//     let MyInputValue = document.querySelector('#exampleInputEmail1').value;
+//     MyInputField.innerHTML='welcome';
+//     if(MyInputValue === 'Tahah'){
+
+//         MyInputField.style.border = "1px solid green";
+        
+
+//     }else{
+//         MyInputField.style.border = "1px solid red";
+       
+//     }     
 
 
+// } catch (error) {
+//     alert(error.message);
+// }
 
 
-
-}
-
+// }
 
 
+// function addnumber(a,b){
+//     // console.log(a+b);
+// // let result =a+b;
+// // return result;
+// let s = a+b;
+// return s;
+// }
+// // addnumber(5,9);
+// console.log(addnumber(2,4));
 
 
 
