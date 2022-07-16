@@ -255,10 +255,53 @@
 // console.log(addnumber(2,4));
 
 
+// let changecolor=()=>{
+//    try {
+//     let change = document.querySelector('.showmycontent');
+//     change.style.color='red';
+//     change.innerHTML='hello world ';
+//     alert('are you sure ');
+//    } catch (error) {
+//     alert(error.message);
+    
+//    }
+    
+// }
 
 
 
 
+let clickme=()=>{
+   try {
+    let MyInputField=document.querySelector('#exampleInputText1');
+    let MyInputValue=document.querySelector('#exampleInputText1').value;
+    let MypasswordValue=document.querySelector('#exampleInputText2').value;
+    let confirmPassword=document.querySelector('#exampleInputText3').value
+    let date=document.querySelector('#date').value;
+    console.log(date)
+    if(MyInputValue.trim()=== ''  ){
+        
+        alert('no filed left blanks');
+        MyInputField.style.border='2px solid red';
+    
+        return false;
+    }
+    if(MypasswordValue==='' || confirmPassword!=MypasswordValue){
+       alert('lund leni ka ')
+       return false;  
+    }
+    if(date.value===''){
+        alert('date dall bdsk')
+    }
+    else{
+        true;
+    }
+
+   } catch (error) {
+    console.log(error.message);
+    
+   }
+}
 
 
 
